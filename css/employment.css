@@ -1,0 +1,138 @@
+html body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #2f3c7e;
+    animation: transitionin 0.75s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.main{
+    background-color: #2f3c7e;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    text-align: center;
+    font-size: xx-large;
+    color: #fbeaeb;
+}
+.nav-bar{
+    background-color: #fbeaeb;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    border-left:2px solid #2f3c7e;
+    height:6vh;
+    margin: -17.8px;
+}
+.nav-link{
+    color:#2f3c7e;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    margin-bottom: 0vh;
+    margin-top: 0.5vh;
+}
+.middle{
+    display: flex;
+    width: 100vw;
+    border: thick;
+    border-top: 5px dotted black;
+}
+.berkone{
+    height: 90vh;
+    width: 50.15vw;
+}
+.berkone-title{
+    text-align: center;
+    font-size: xxx-large;
+    color: #fbeaeb;
+    margin-bottom: 2%;
+}
+
+.hab-logo{
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+}
+.hab-info{
+    display: flex;
+}
+.berkone-pos{
+    text-align: center;
+    font-size: x-large;
+    color: #fbeaeb;
+    margin-top: 4%;
+    width: 50%;
+}
+.hab-date{
+    text-align: center;
+    font-size: x-large;
+    color: #fbeaeb;
+    margin-top: 4%;
+    width: 50%;
+}
+.hab-tasks{
+    font-size: large;
+    color: #fbeaeb;
+}
+li{
+    margin-bottom: 5vh;
+}
+.ftts{
+    width: 49vw;
+    height: 90vh;
+    border: thick;
+    border-left: 5px dotted black;   
+}
+.ftts-title{
+    text-align: center;
+    font-size: xxx-large;
+    color: #fbeaeb;
+    height: 5vh;
+    margin-bottom: 5.5%;
+}
+.ftts-logo{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.ftts-info{
+    display: flex;
+}
+.ftts-pos{
+    text-align: center;
+    font-size: x-large;
+    color: #fbeaeb;
+    margin-top: 4%;
+    width: 50%;
+}
+.ftts-date{
+    text-align: center;
+    font-size: x-large;
+    color: #fbeaeb;
+    margin-top: 4%;
+    width: 50%;
+}
+.ftts-tasks{
+    font-size: large;
+    color: #fbeaeb;
+}
+@keyframes transitionin {
+    from {
+      opacity: 0;
+      transform: translateY(-10px)
+    }
+
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

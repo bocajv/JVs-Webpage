@@ -1,0 +1,185 @@
+html body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #2f3c7e;
+    animation: transitionin 0.75s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    text-align: center;
+    font-size: xx-large;
+    color: #fbeaeb;
+}
+.nav-bar{
+    background-color: #fbeaeb;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    border-left:2px solid #2f3c7e;
+    height:6vh;
+    margin: -17.8px;
+}
+.nav-link{
+    color:#2f3c7e;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    margin-bottom: 0vh;
+    margin-top: 0.5vh;
+}
+.middle{
+    display: flex;
+    width: 100vw;
+    border: thick;
+    border-top: 5px dotted black;
+}
+.University{
+    height: 90vh;
+    width: 50.15vw;
+}
+.school-title{
+    text-align: center;
+    font-size: xxx-large;
+    color: #fbeaeb;
+}
+.school{
+    text-align: center;
+    font-size: x-large;
+    color: #fbeaeb;
+}
+.edu-stats{
+    display: flex;
+}
+.gpa{
+    font-size: x-large;
+    color: #fbeaeb;
+    width: 25vw;
+    text-align: center;
+}
+.deans-list{
+    font-size: x-large;
+    color: #fbeaeb;
+    width: 25vw;
+    text-align: center;
+}
+.class-list{
+    font-size: large;
+    color: #fbeaeb;
+}
+li{
+    margin-bottom: 5vh;
+}
+.Certs{
+    width: 49vw;
+    height: 90vh;
+    border: thick;
+    border-left: 5px dotted black;
+}
+.cert-list{
+    text-align: center;
+    font-size: xxx-large;
+    color: #fbeaeb;
+    height: 5vh;
+    
+}
+.cert-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.ITF{
+    align-items: center;
+    width: 20.5vw;
+    height: 30vh;
+    
+}
+.ITF-pic{
+    border-radius: 40px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+.ITF-cert{
+    font-size: large;
+    color: #fbeaeb;
+    text-align: center;
+    margin-top: 2.6vh;
+}
+.ITF-date{
+    font-size: large;
+    color: #fbeaeb;
+    text-align: center;
+}
+.pitt{
+    align-items: center;
+    width: 20.5vw;
+    height: 30vh;
+    
+}
+.pitt-pic{
+    border-radius: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+.pitt-cert{
+    font-size: large;
+    color: #fbeaeb;
+    text-align: center;
+    margin-top: 0.3vh;
+}
+.pitt-date{
+    font-size: large;
+    color: #fbeaeb;
+    text-align: center;
+    margin-top: -0.8vh;
+}
+.codepath{
+    align-items: center;
+    width: 20.5vw;
+    height: 30vh;
+}
+.codepath-pic{
+    border-radius: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 165px;
+}
+.codepath-cert{
+    font-size: large;
+    color: #fbeaeb;
+    text-align: center;
+}
+.codepath-date{
+    font-size: large;
+    color: #fbeaeb;
+    text-align: center;
+}
+@keyframes transitionin {
+    from {
+      opacity: 0;
+      transform: translateY(-10px)
+    }
+
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
