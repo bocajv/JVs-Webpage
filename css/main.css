@@ -174,6 +174,85 @@ text-align: center;
     margin-top: -1.2vh;
   }
 
+@media screen and (max-width:1414px) {
+  .name {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fbeaeb;
+    margin-top: 3vh;
+    margin-right: 6vw;
+  }
+}
+
+@media screen and (max-width:1172px){
+  .profile-pic {
+    width: 35vw;
+    height: 25vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    align-content: center;
+    
+  }
+  img.selfie {
+    width: 225px;
+    border-radius: 75px;
+  }
+  .abme{
+    width: 30vw;
+    height: 23vh;
+    font-size: large;
+    margin-left: 3vw;
+    color: #fbeaeb;
+  }
+  .education{
+    font-size: x-large;
+    text-align: center;
+        }
+  .employment{
+    font-size: x-large;
+    text-align: center;
+        }
+  .leadership{
+    font-size: x-large;
+    text-align: center;
+        }
+  .edu-text{
+    font-size: large;
+    text-align: center;
+    padding-bottom: 3.4vb;
+      }
+  .employment-text{
+        font-size: large;
+        text-align: center;
+        padding-bottom: 3.4vb;
+    }
+  .leadership-text{
+      font-size: large;
+      text-align: center;
+              }
+   .edu-link{
+   font-size: large;
+   background-color: #2f3c7e;
+   color: #fbeaeb;
+   padding: 1vb;
+   border-radius: 110px;
+      }
+    .employment-link{
+    font-size: large;
+    background-color: #2f3c7e;
+    color: #fbeaeb;
+    padding: 1vb;
+    border-radius: 110px;
+    } 
+    .leadership-link{
+      font-size: large;
+      background-color: #2f3c7e;
+      color: #fbeaeb;
+      padding: 1vb;
+      border-radius: 110px;
+    }  
+}
+
   @keyframes transitionin {
     from {
       opacity: 0;
